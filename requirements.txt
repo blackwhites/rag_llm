@@ -1,0 +1,14 @@
+python-docx==1.1.0 #to parse documents
+langchain == 0.1.13 #for working on creation of pipeline activity of RAG
+langchain-core #for using core initialization of langchains
+langchain-community #for integreating purposes & utilising retrieval methods
+faiss-cpu==1.8 #for vector store ( inbuilt uses facebook similarity)
+huggingface-hub==0.21.4 #allows for sharing / accessing / publishing datasets, models etc
+transformers==4.39.1 #only focus on sharing pre trained models 
+torch==2.2.1 #torch for using transformers and speeding it in case 
+sentence-transformers==2.6.0 #all the sentence transformers
+elasticsearch == 8.12.1 #for storing text data and searching on this
+accelerate == 0.28.0 #used to accelerate installations using pip
+flash-attn
+text-generation == 0.7.0 #used to load llama2
+openllm == 0.4.44 #for using open source llm models
