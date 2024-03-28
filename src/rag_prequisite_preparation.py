@@ -31,7 +31,10 @@ we have paragraphs in the document
 write_index_for_local = True
 create_and_store_data_faiss(chunked_documents,embedded_documents,write_index_for_local)
 
+'''
+we need to integrate this with elastic search or other store if we are intrested to add text data into vector store
 
+'''
 # Do create a pipline 
 '''
     First Query Search from User input 

@@ -9,6 +9,8 @@ torch==2.2.1 #torch for using transformers and speeding it in case
 sentence-transformers==2.6.0 #all the sentence transformers
 elasticsearch == 8.12.1 #for storing text data and searching on this
 accelerate == 0.28.0 #used to accelerate installations using pip
-flash-attn
-text-generation == 0.7.0 #used to load llama2
+# flash-attn
+text-generation  #used to load llama2
 openllm == 0.4.44 #for using open source llm models
+optimum =1.17.1 #to work on quantizable models 
+openai==1.14.3 #for using local lmstudio models
