@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#localmodels
+models/
+all-MiniLM-L6-v2
+
 # Distribution / packaging
 .Python
 build/
